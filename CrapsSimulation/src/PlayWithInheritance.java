@@ -106,5 +106,11 @@ public class PlayWithInheritance
 	{
 		StdOut.printf("%s '%s' \n", msg, toDescribe.toString());
 	}
+	
+	public static String testStatic()
+	{
+		Die die = new CrookedDie1();
+		return die.testStatic();
+	}
 
 }

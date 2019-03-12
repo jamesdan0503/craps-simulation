@@ -6,7 +6,7 @@ public class Die
 	public Die()
 	{
 		// CrapsGame.println("Die's constructor called.");
-		this.roll();
+		//this.roll();
 	}
 
 	public Die(int firstValue) // overloaded constructor: different signature
@@ -44,5 +44,9 @@ public class Die
 	public String toString(int msg) // Overloading... but NOT overriding!
 	{
 		return msg + this.toString();
+	}
+	
+	public static String testStatic() {
+		return "Die";
 	}
 }
