@@ -11,5 +11,4 @@ public class PlaywithInheritanceTest
 	{
 		assertEquals("Die", PlayWithInheritance.testStatic());
 	}
-
 }
