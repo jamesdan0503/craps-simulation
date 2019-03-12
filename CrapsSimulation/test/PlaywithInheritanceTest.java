@@ -10,6 +10,5 @@ public class PlaywithInheritanceTest
 	public void test_Inheritance() 
 	{
 		assertEquals("Die", PlayWithInheritance.testStatic());
-	}
-	
+	}	
 }
